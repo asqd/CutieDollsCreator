@@ -1,0 +1,11 @@
+h1 Cutie Doll Creator
+form.build action="/create/doll" method="POST"
+  input.button type="submit" value="Create a doll!"
+
+-if @dolls.any?
+  ul#dolls
+    - @dolls.each do |doll|
+      ==slim :doll, :locals => { :doll => doll }
+-else
+  ul#dolls
+  h2#warn No one dolls here, create the first doll!

@@ -1,0 +1,33 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote, pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt, dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article, aside, canvas, details,figcaption,figure,footer,header,hgroup,menu,nav,section, summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;line-height:1;}
+
+body{font-family:ubuntu,sans;}
+
+footer{display:block;margin-top:20px;border-top:3px solid #4b947d;padding:10px;}
+
+h1{color:#95524C;margin:5px 40px;font-size:72px;font-weight:bold;font-family:Georgia,sans;}
+.button{
+  
+  background:#95524C;color:#fff;
+  text-transform:uppercase;
+  border-radius:0px 10px 0px 10px;border:none;
+  font-weight:bold;font-size:16px;
+  padding:6px 12px;margin-left:100px;
+  cursor:pointer;
+  &:hover{background:#54A0E7;}}
+  
+#dolls{list-style:none;overflow:hidden;margin:20px;}
+
+.doll{
+  float:left;
+  width:190px;height:325px;padding:10px 0px;
+  position:relative;
+  
+  form{display:none;position:absolute;top:0;right:0;}
+  &:hover form{display:block;}
+
+  form input{background:rgba(#000,0.7);color:white;cursor:pointer; font-size:28px;font-weight:bold;text-decoration:none;border-radius:16px;line-height:0.8;border:none; }
+  
+img{display:block;padding:0px 10px;} }
+
+.head, .body, .legs {position: relative;}
+.head { bottom: -12px; }

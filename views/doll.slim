@@ -1,0 +1,7 @@
+li.doll
+  img.head src="/heads/head_#{doll.head}.png" z-index="1"
+  img.body src="/bodies/body_#{doll.body}.jpg" z-index="2"
+  img.legs src="/legs/legs_#{doll.legs}.jpg" z-index="2"
+  form.destroy action="/delete/doll/#{doll.id}" method="POST"
+    input type="hidden" name="_method" value="DELETE"
+    input type="submit" value="x"
